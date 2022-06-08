@@ -1,6 +1,5 @@
 from plyer import battery, notification
-import  psutil
-import time, datetime
+import time
 
 
 while True:
@@ -24,12 +23,5 @@ while True:
         elif info2 == False: # this condition is to make sure the programme has been ended 
             print(batteryinfo)
             print('Programme finished')
-            notification.notify(
-                        title='NOTIFY',
-                        message= f"Battery At {info1}% | Time Remaining { datetime.timedelta(seconds=psutil.sensors_battery()[1])}",
-                        app_name='NOTIFY',
-                        timeout=10, # the notification will stay on screen for 10 sec
-                        app_icon = " " #copy image path and paste it here
-                    )
             break # because this elif condition  is inside a while loop it is important to break the loop after the programme is executed 
         
