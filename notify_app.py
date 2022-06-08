@@ -14,7 +14,7 @@ while True:
                         message= f"Battery At {info1}% | Disconnect Charger",
                         app_name='NOTIFY',
                         timeout=10, # the notification will stay on screen for 10 sec
-                        app_icon = "D:\Programing\Language\Python\Projects\Battery Health\Oxygen-Icons.org-Oxygen-Status-battery-charging.ico" #copy the path of the imgae and paste here
+                        app_icon = " " #copy the path of the imgae and paste insde the empty string
                     )
                 time.sleep(120) #time has been set so that every 2mins (120sec) the programme will execute, while the contiton is true
 
