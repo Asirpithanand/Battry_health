@@ -22,7 +22,7 @@ while True:
 
     now = datetime.now()
     hour = int(now.strftime("%H"))
-    minute = int(now.strftime("%M")) + 1 # Call Time must be Greater than Wait Time as WhatsApp Web takes some Time to Load! That's why we have added 1 to the current time
+    minute = int(now.strftime("%M")) + 2 # Call Time must be Greater than Wait Time as WhatsApp Web takes some Time to Load! That's why we have added 2 to the current time
 
     batteryinfo = battery.status   #this will show the current battery percent  and  whether battery is charging or not
     # stored the information in separate variable
