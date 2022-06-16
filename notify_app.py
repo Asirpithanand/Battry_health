@@ -42,7 +42,7 @@ while True:
         break    
 
     #checking the condition of battery percent and charging status
-    elif info1 >= 86 and info2 == True:
+    elif info1 >= 89 and info2 == True: # You can edit the number & set number according to your need 
             if connected == True: # only if the laptop has internet connection this if block will execute and send message to whatsapp
                 msg.sendwhatmsg('enter your mobile number along with country code', f"Battery At {info1}% | Disconnect Charger", hour, minute)
 
