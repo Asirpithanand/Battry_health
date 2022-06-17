@@ -57,6 +57,6 @@ while True:
             print('Program Finished')
             break
         
-    time.sleep(80) #timer has been set so that every 2mins (120sec) the program will execute, while the contiton is true
+    time.sleep(120) #timer has been set so that every 2mins (120sec) the program will execute, while the contiton is true
 
 
