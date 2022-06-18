@@ -33,7 +33,7 @@ while True:
     if info2 == False:
         notification.notify(
                     title='NOTIFY',
-                    message= f"Battery At | {info1}% Remaining",
+                    message= f"Battery At {info1}% | Remaining",
                     app_name='NOTIFY',
                     timeout=10, # the notification will stay on screen for 10 sec
                     app_icon = " "  # copy and paste the path of the image attached with this repo
